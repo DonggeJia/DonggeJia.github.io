@@ -3410,7 +3410,7 @@ input, select, textarea {
 				-webkit-transform: translateY(2rem);
 				-ms-transform: translateY(2rem);
 				transform: translateY(2rem);
-				opacity: 0;
+				opacity: 1;
 				visibility: hidden;
 			}
 
