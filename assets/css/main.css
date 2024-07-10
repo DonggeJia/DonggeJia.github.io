@@ -3569,13 +3569,13 @@ input, select, textarea {
 			pointer-events: auto;
 			border-style: solid;
 			border-color: #ffffff;
-			border-width: 5px !important;
+			border-width: 1px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 2.25rem;
+			font-size: 1rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1;
-			padding: 1rem 1.75rem;
+			padding: 0.5rem 1.25rem;
 			text-transform: uppercase;
 			visibility: visible;
 		}
