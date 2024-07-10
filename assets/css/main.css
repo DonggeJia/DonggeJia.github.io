@@ -3519,7 +3519,7 @@ input, select, textarea {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 1rem;
+		/* height: 1rem; */
 		padding-bottom: 8rem;
 		position: relative;
 		text-align: center;
