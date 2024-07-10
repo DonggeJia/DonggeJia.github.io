@@ -3426,7 +3426,7 @@ input, select, textarea {
 			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			opacity: 0;
 			visibility: hidden;
-		}
+		}*/
 
 			#intro.hidden + #header .logo {
 				-moz-transform: translateY(0);
@@ -3435,7 +3435,7 @@ input, select, textarea {
 				transform: translateY(0);
 				opacity: 1;
 				visibility: visible;
-			}*/
+			} 
 
 		body.is-preload #intro {
 			-moz-transform: translateY(2rem);
