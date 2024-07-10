@@ -3411,7 +3411,7 @@ input, select, textarea {
 				-ms-transform: translateY(2rem);
 				transform: translateY(2rem);
 				opacity: 1;
-				visibility: hidden;
+				visibility: visible;
 			}
 
 		/*#intro.hidden {
