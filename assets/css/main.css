@@ -4538,13 +4538,13 @@ input, select, textarea {
 				background-color: #ffffff;
 			}
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			#navPanelToggle {
 				display: block;
 			}
 
-		}
+		} */
 
 		@media screen and (max-width: 736px) {
 
