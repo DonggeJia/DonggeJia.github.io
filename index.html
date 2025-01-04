@@ -174,14 +174,18 @@
           <p>
             <heading>Imitation Learning for generalizable long-horizon visuomotor control (2024, SDSURF)</heading>
             </a><br>
-            I am developing behavior cloning method to learn robotic munipulations using
-            unstructured demonstrations. The approach employs a generalizable neural field (GNF) to reconstruct deep 3D
-            voxel representations, enriched with semantic information through Stable Diffusion. These 3D voxel
-            representations are then autoregressively refined via visual decomposed into subskills, forming a chain-of-thought (CoT) for task planning.
-            Finally, a Transformer-based model predicts actions guided by the CoT, effectively coupling actions and
-            subskills through learnable prompts and hybrid masking. (target at IROSE 2025)<br> 
+            I am developing a behavior cloning method to learn robotic manipulations from unstructured demonstrations.
+            The approach leverages a Generalizable Neural Field (GNF) to reconstruct deep 3D voxel representations,
+            enriched with generalizable semantics using Stable Diffusion. Initially, we explored an actor predictor
+            based on the Chain of Thought Control architecture; however, its success rate was unsatisfactory.
+            Consequently, we transitioned to a scale autoregressive predictor inspired by Visual Autoregressive Modeling
+            (VAR). The VAR transformer generates a 3D action space, from which Q-functions are derived to produce executable
+            actions. The model is undergoing continuous upgrades to achieve superior performance compared to its
+            predecessors (target at IROS 2025)<br>
           </p>
-
+          <a href="docs_store/Dongge_IROS2025.pdf" id="highmmt">
+            <heading>Paper Draft</heading>
+          </a><br>
           </pre>
   </div>
   </td>
@@ -198,8 +202,12 @@
         Networked Airborne Computing (NAC) addresses UAVs' limited onboard computing capacity by enabling resource
         sharing among multiple UAVs. In a random mobility scenario, and without prior system knowledge, we optimize
         task allocation through three Deep Reinforcement Learning algorithms: TD3, PPO, and DDPG. Simulations
-        demonstrate that our methods significantly accelerate task execution compared to existing approaches. (journal paper in preparation)<br>
+        demonstrate that our methods significantly accelerate task execution compared to existing approaches. (journal
+        paper in preparation)<br>
       </p>
+      <a href="docs_store/Wimob.pdf" id="highmmt">
+        <heading>Paper Draft</heading>
+      </a><br>
 
       </pre>
       </div>
